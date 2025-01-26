@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+    z-index: 1000;
+}
+
+.nav-link{
+   color: white;
+   font-size: 24px;  
+     text-decoration: none;
+}
+
+.nav-link.active{
+    color: yellow;
+}
+.main-content {
+  margin-top: 64px; /* Відступ для врахування висоти фіксованої панелі */
+  padding: 16px;
+}

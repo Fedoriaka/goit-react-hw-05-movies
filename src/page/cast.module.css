@@ -1,0 +1,25 @@
+.img_cast{
+    width: 120px;
+    height: auto;
+}
+
+.cast_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.list_item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 120px;
+    
+}
+.p{margin-top: 10px;
+margin-bottom: 0;}
+
+.noImage{
+    width: 120px;
+    height: 180px;
+}
